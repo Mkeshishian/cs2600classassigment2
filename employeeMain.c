@@ -65,7 +65,7 @@ int main(void){
         printf("Employee phone number 909-555-1235 is NOT found in the record\n"); 
 
 
-
+    //Another example of found
     matchPtr = searchEmployeeBySalary(EmployeeTable, EmployeeTableEntries, 6.34); 
 
     if (matchPtr != NULL) 
