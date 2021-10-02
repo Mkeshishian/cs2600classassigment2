@@ -2,7 +2,7 @@
 //use rand function 
 int number()
 {
-    return rand()%15;
+    return rand()%9;
 }
 //creating the squares
 void createNewSquare()
@@ -60,7 +60,8 @@ bool evaluateSquare(int MagicSquare[3][3])
     {
         return true;
     }else{
-        printf("Mod Result: %i\n", (row1Sum+row2Sum+row3Sum+column1Sum+column2Sum+column3Sum+diagSum)%15);
+        //use this if you want to print out the sum of each square to see if it equals 15
+        //printf("Added Result: %i\n", (row1Sum+row2Sum+row3Sum+column1Sum+column2Sum+column3Sum+diagSum)%15);
         return false;
     }
 }
