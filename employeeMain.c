@@ -74,7 +74,7 @@ int main(void){
 
     else 
 
-        printf("Employee who salary is $6.34 is NOT found in the record\n"); 
+        printf("Employee whos salary is $6.34 is NOT found in the record\n"); 
 
 
 
